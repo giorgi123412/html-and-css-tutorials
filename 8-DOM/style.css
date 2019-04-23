@@ -1,8 +1,6 @@
 .my-div{
-    width: 200px;
-    height: 200px;
-    padding: 10px;
-    border: solid green;
-    margin: 20px;
-    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background-color:blue;
 }
