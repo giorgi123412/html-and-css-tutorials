@@ -4,3 +4,6 @@ button{
     display: block;
     margin-bottom: 10px;
 }
+button:last-child{
+    margin-bottom: 0px;
+}
