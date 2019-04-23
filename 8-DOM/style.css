@@ -1,6 +1,6 @@
-.link{
-    width: 30px;
-    height: 100px;
-    display:block;
-    padding: 10px
+button{
+    background-color: red;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px;
 }
