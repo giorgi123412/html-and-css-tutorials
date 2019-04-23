@@ -1,6 +1,9 @@
-.my-div{
-    width: 100px;
-    height: 100px;
-    display: inline-block;
-    background-color:blue;
+.table{
+    display: table;
+}
+.table .row{
+    display: table-row;
+}
+.table .row .cell {
+    display: table-cell;
 }
