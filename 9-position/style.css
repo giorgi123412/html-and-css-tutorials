@@ -4,22 +4,22 @@
     background-color: blue;
     position: relative;
 }
-.basic-block .block{
+.basic-block .block {
     width: 100px;
     height: 60px;
     background-color: white;
 }
-.block-1{
+.block-1 {
     position: absolute;
     top: 20px;
     left: 20px;
 }
-.block-2{
+.block-2 {
     position: absolute;
     top: 20px;
     right: 20px;
 }
-.block-3{
+.block-3 {
     position: absolute;
     bottom: 20px;
     right: 20px;
