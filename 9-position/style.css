@@ -1,22 +1,21 @@
-.message{
+.divider{
+    height: 48px;
+    position: relative;
+    text-align: center;
+}
+.divider::after{
+    content: "";
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: block;
     position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 300px;
-    padding: 10px;
-    border: 2px solid gray;
+    top: 50%;
+    z-index: 1;
 }
-.message p {
-    margin-top: 5px;
-    margin-bottom: 10px;
-}
-.message a {
+.divider span{
+    z-index: 2;
+    padding: 15px;
+    background-color: white;
     position: absolute;
-    top: 15px;
-    right: 15px;
-    text-decoration: none;
-    color: black;
-}
-.message span {
-    color: gray;
+    transform: translate(-50px)
 }
