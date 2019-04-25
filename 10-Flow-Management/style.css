@@ -12,7 +12,7 @@ header, .col-1, .col-2, .col-3, footer{
     line-height: 150px;
     box-sizing: border-box;
 }
-header{
+header {
     color: white;
     padding-left: 40px;
     font-size: 40px;
