@@ -18,17 +18,19 @@ header{
     font-size: 40px;
     line-height: 150px;
 }
-.col-1, .col-2{
-    width: 280px;
-}
-.col-1{
+.col-1, .col-2, .col-3{
+    width: 180px;
     float: left;
 }
+.col-1{
+
+}
 .col-2{
-    float: right;
+    margin-left: 30px;
 }
 .col-3{
-    width: 400px;
+    margin-left: 30px;
+}
+footer{
     clear: both;
-    margin: 0 auto 30px;
 }
