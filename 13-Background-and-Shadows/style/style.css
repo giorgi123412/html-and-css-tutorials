@@ -18,6 +18,7 @@ section div {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    filter: blur(8px);
 }
 section div::after{
     position: absolute;
